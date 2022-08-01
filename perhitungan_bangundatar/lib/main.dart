@@ -1,5 +1,5 @@
+import 'package:aplikasi_percobaan/FormRegistrasi.dart';
 import 'package:flutter/material.dart';
-import 'package:perhitungan_bangundatar/perhitungan_bangundatar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Perhitungan Bangun Datar',
+      title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const perhitungan_bangundatar(),
+      home: const formRegistrasi()
     );
   }
 }
